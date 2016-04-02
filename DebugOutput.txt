@@ -1,0 +1,4 @@
+SUCCEEDED
+
+D3DXCreateSprite(): 
+SUCCEEDED
