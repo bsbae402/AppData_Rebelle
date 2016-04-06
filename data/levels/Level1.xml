@@ -24,4 +24,8 @@
   <spawning_pools>
 
   </spawning_pools>
+  <!-- PLAYER -->
+  <players>
+	<player sprite_type="flower_mantis" init_x="300"  init_y="650" init_bot_state="MOVING" init_sprite_state="IDLE"/>
+  </players>
 </level>
