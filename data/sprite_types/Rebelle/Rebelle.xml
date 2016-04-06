@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sprite_type>
+    <image_config>SEPARATED</image_config>
+    <width>128</width>
+    <height>128</height>
+    <images_list>
+        <image_file id="0" file_name="Rebelle_BACK_1.png"/>
+        <image_file id="1" file_name="Rebelle_BACK_2.png"/>
+        <image_file id="2" file_name="Rebelle_BACK_3.png"/>
+        <image_file id="3" file_name="Rebelle_BACK_4.png"/>
+        <image_file id="4" file_name="Rebelle_BACK_5.png"/>
+	<image_file id="5" file_name="Rebelle_BACK_DAMAGE_1.png"/>
+        <image_file id="6" file_name="Rebelle_BACK_DAMAGE_2.png"/>
+        <image_file id="7" file_name="Rebelle_BACK_DAMAGE_3.png"/>
+	<image_file id="8" file_name="Rebelle_BACK_IDLE.png"/>
+	<image_file id="9" file_name="Rebelle_BACK_JUMP.png"/>
+        <image_file id="10" file_name="Rebelle_BACK_PUNCH_1.png"/>
+        <image_file id="11" file_name="Rebelle_BACK_PUNCH_2.png"/>
+        <image_file id="12" file_name="Rebelle_BACK_PUNCH_3.png"/>
+        <image_file id="13" file_name="Rebelle_BACK_PUNCH_4.png"/>
+	<image_file id="14" file_name="Rebelle_FRONT_1.png"/>
+        <image_file id="15" file_name="Rebelle_FRONT_2.png"/>
+        <image_file id="16" file_name="Rebelle_FRONT_3.png"/>
+        <image_file id="17" file_name="Rebelle_FRONT_4.png"/>
+        <image_file id="18" file_name="Rebelle_FRONT_5.png"/>
+	<image_file id="19" file_name="Rebelle_LEFT_1.png"/>
+        <image_file id="20" file_name="Rebelle_LEFT_2.png"/>
+        <image_file id="21" file_name="Rebelle_LEFT_3.png"/>
+	<image_file id="22" file_name="Rebelle_LEFT_4.png"/>
+        <image_file id="23" file_name="Rebelle_LEFT_5.png"/>
+	<image_file id="24" file_name="Rebelle_RIGHT_1.png"/>
+        <image_file id="25" file_name="Rebelle_RIGHT_2.png"/>
+        <image_file id="26" file_name="Rebelle_RIGHT_3.png"/>
+	<image_file id="27" file_name="Rebelle_RIGHT_4.png"/>
+        <image_file id="28" file_name="Rebelle_RIGHT_5.png"/>
+	<image_file id="29" file_name="Rebelle_BACK_SHOOT_1.png"/>
+        <image_file id="30" file_name="Rebelle_BACK_SHOOT_2.png"/>
+        <image_file id="31" file_name="Rebelle_BACK_SHOOT_3.png"/>
+        <image_file id="32" file_name="Rebelle_BACK_SHOOT_4.png"/>
+        <image_file id="33" file_name="Rebelle_BACK_SHOOT_5.png"/>
+	<image_file id="34" file_name="Rebelle_FRONT_SHOOT_1.png"/>
+        <image_file id="35" file_name="Rebelle_FRONT_SHOOT_2.png"/>
+        <image_file id="36" file_name="Rebelle_FRONT_SHOOT_3.png"/>
+        <image_file id="37" file_name="Rebelle_FRONT_SHOOT_4.png"/>
+        <image_file id="38" file_name="Rebelle_FRONT_SHOOT_5.png"/>
+	<image_file id="39" file_name="Rebelle_LEFT_SHOOT_1.png"/>
+        <image_file id="40" file_name="Rebelle_LEFT_SHOOT_2.png"/>
+        <image_file id="41" file_name="Rebelle_LEFT_SHOOT_3.png"/>
+        <image_file id="42" file_name="Rebelle_LEFT_SHOOT_4.png"/>
+	<image_file id="43" file_name="Rebelle_RIGHT_SHOOT_1.png"/>
+        <image_file id="44" file_name="Rebelle_RIGHT_SHOOT_2.png"/>
+        <image_file id="45" file_name="Rebelle_RIGHT_SHOOT_3.png"/>
+        <image_file id="46" file_name="Rebelle_RIGHT_SHOOT_4.png"/>
+	<image_file id="47" file_name="Rebelle_BACK_STRAFE_1.png"/>
+        <image_file id="48" file_name="Rebelle_BACK_STRAFE_2.png"/>
+        <image_file id="49" file_name="Rebelle_BACK_STRAFE_3.png"/>
+	<image_file id="50" file_name="Rebelle_FRONT_STRAFE_1.png"/>
+        <image_file id="51" file_name="Rebelle_FRONT_STRAFE_2.png"/>
+        <image_file id="52" file_name="Rebelle_FRONT_STRAFE_3.png"/>
+	<image_file id="53" file_name="Rebelle_LEFT_STRAFE_1.png"/>
+        <image_file id="54" file_name="Rebelle_LEFT_STRAFE_2.png"/>
+        <image_file id="55" file_name="Rebelle_LEFT_STRAFE_3.png"/>
+	<image_file id="56" file_name="Rebelle_RIGHT_STRAFE_1.png"/>
+        <image_file id="57" file_name="Rebelle_RIGHT_STRAFE_2.png"/>
+        <image_file id="58" file_name="Rebelle_RIGHT_STRAFE_3.png"/>
+	<image_file id="59" file_name="Rebelle_FRONT_DAMAGE_1.png"/>
+        <image_file id="60" file_name="Rebelle_FRONT_DAMAGE_2.png"/>
+        <image_file id="61" file_name="Rebelle_FRONT_DAMAGE_3.png"/>
+	<image_file id="62" file_name="Rebelle_LEFT_DAMAGE_1.png"/>
+        <image_file id="63" file_name="Rebelle_LEFT_DAMAGE_2.png"/>
+	<image_file id="64" file_name="Rebelle_RIGHT_DAMAGE_1.png"/>
+        <image_file id="65" file_name="Rebelle_RIGHT_DAMAGE_2.png"/>
+	<image_file id="66" file_name="Rebelle_FRONT_IDLE.png"/>
+	<image_file id="67" file_name="Rebelle_LEFT_IDLE.png"/>
+	<image_file id="68" file_name="Rebelle_RIGHT_IDLE.png"/>
+	<image_file id="69" file_name="Rebelle_FRONT_JUMP.png"/>
+	<image_file id="70" file_name="Rebelle_LEFT_JUMP.png"/>
+	<image_file id="71" file_name="Rebelle_RIGHT_JUMP.png"/>
+	<image_file id="72" file_name="Rebelle_FRONT_PUNCH_1.png"/>
+        <image_file id="73" file_name="Rebelle_FRONT_PUNCH_2.png"/>
+        <image_file id="74" file_name="Rebelle_FRONT_PUNCH_3.png"/>
+        <image_file id="75" file_name="Rebelle_FRONT_PUNCH_4.png"/>
+	<image_file id="76" file_name="Rebelle_LEFT_PUNCH_1.png"/>
+        <image_file id="77" file_name="Rebelle_LEFT_PUNCH_2.png"/>
+        <image_file id="78" file_name="Rebelle_LEFT_PUNCH_3.png"/>
+        <image_file id="79" file_name="Rebelle_LEFT_PUNCH_4.png"/>
+	<image_file id="80" file_name="Rebelle_RIGHT_PUNCH_1.png"/>
+        <image_file id="81" file_name="Rebelle_RIGHT_PUNCH_2.png"/>
+        <image_file id="82" file_name="Rebelle_RIGHT_PUNCH_3.png"/>
+        <image_file id="83" file_name="Rebelle_RIGHT_PUNCH_4.png"/>
+
+        
+    </images_list>
+    <animations_list>
+        <animation_state>
+            <state>WALK_BACK</state>
+            <animation_sequence>
+                <pose image_id="0" duration="3"/>
+                <pose image_id="1" duration="3"/>
+                <pose image_id="2" duration="2"/>
+                <pose image_id="3" duration="2"/>
+                <pose image_id="4" duration="2"/>
+		<pose image_id="3" duration="2"/>
+                <pose image_id="2" duration="3"/>
+                <pose image_id="1" duration="3"/>
+
+            </animation_sequence>
+
+        </animation_state>
+
+	<animation_state>
+            <state>DAMAGE_BACK</state>
+            <animation_sequence>
+                <pose image_id="5" duration="2"/>
+                <pose image_id="6" duration="2"/>
+                <pose image_id="7" duration="9"/>
+
+            </animation_sequence>
+
+        </animation_state>
+
+	<animation_state>
+            <state>IDLE_BACK</state>
+            <animation_sequence>
+                <pose image_id="8" duration="2"/>
+                
+            </animation_sequence>
+
+        </animation_state>
+
+	<animation_state>
+            <state>IDLE_FRONT</state>
+            <animation_sequence>
+                <pose image_id="66" duration="2"/>
+                
+            </animation_sequence>
+
+        </animation_state>
+
+	<animation_state>
+            <state>IDLE_LEFT</state>
+            <animation_sequence>
+                <pose image_id="67" duration="2"/>
+                
+            </animation_sequence>
+
+        </animation_state>
+
+	<animation_state>
+            <state>IDLE_RIGHT</state>
+            <animation_sequence>
+                <pose image_id="68" duration="2"/>
+                
+            </animation_sequence>
+
+        </animation_state>
+
+	<animation_state>
+            <state>JUMP_BACK</state>
+            <animation_sequence>
+                <pose image_id="9" duration="2"/>
+                
+            </animation_sequence>
+
+        </animation_state>
+
+	<animation_state>
+            <state>JUMP_FRONT</state>
+            <animation_sequence>
+                <pose image_id="69" duration="2"/>
+                
+            </animation_sequence>
+
+        </animation_state>
+
+	<animation_state>
+            <state>JUMP_LEFT</state>
+            <animation_sequence>
+                <pose image_id="70" duration="2"/>
+                
+            </animation_sequence>
+
+        </animation_state>
+
+	<animation_state>
+            <state>JUMP_RIGHT</state>
+            <animation_sequence>
+                <pose image_id="71" duration="2"/>
+                
+            </animation_sequence>
+
+        </animation_state>
+
+	<animation_state>
+            <state>PUNCH_BACK</state>
+            <animation_sequence>
+                <pose image_id="10" duration="6"/>
+                <pose image_id="11" duration="3"/>
+                <pose image_id="12" duration="3"/>
+                <pose image_id="13" duration="6"/>
+
+            </animation_sequence>
+
+        </animation_state>
+
+	<animation_state>
+            <state>PUNCH_LEFT</state>
+            <animation_sequence>
+                <pose image_id="76" duration="6"/>
+                <pose image_id="77" duration="3"/>
+                <pose image_id="78" duration="3"/>
+                <pose image_id="79" duration="6"/>
+
+            </animation_sequence>
+
+        </animation_state>
+
+	<animation_state>
+            <state>PUNCH_RIGHT</state>
+            <animation_sequence>
+                <pose image_id="80" duration="6"/>
+                <pose image_id="81" duration="3"/>
+                <pose image_id="82" duration="3"/>
+                <pose image_id="83" duration="6"/>
+
+            </animation_sequence>
+
+        </animation_state>
+
+	<animation_state>
+            <state>PUNCH_FRONT</state>
+            <animation_sequence>
+                <pose image_id="72" duration="6"/>
+                <pose image_id="73" duration="3"/>
+                <pose image_id="74" duration="3"/>
+                <pose image_id="75" duration="6"/>
+
+            </animation_sequence>
+
+        </animation_state>
+
+	<animation_state>
+            <state>WALK_FRONT</state>
+            <animation_sequence>
+                <pose image_id="14" duration="3"/>
+                <pose image_id="15" duration="3"/>
+                <pose image_id="16" duration="2"/>
+                <pose image_id="17" duration="2"/>
+                <pose image_id="18" duration="2"/>
+		<pose image_id="17" duration="2"/>
+                <pose image_id="16" duration="3"/>
+                <pose image_id="15" duration="3"/>
+
+            </animation_sequence>
+
+        </animation_state>
+
+	<animation_state>
+            <state>WALK_LEFT</state>
+            <animation_sequence>
+                <pose image_id="19" duration="3"/>
+                <pose image_id="20" duration="3"/>
+                <pose image_id="21" duration="3"/>
+                <pose image_id="22" duration="3"/>
+                <pose image_id="23" duration="3"/>
+		<pose image_id="22" duration="3"/>
+                <pose image_id="21" duration="3"/>
+                <pose image_id="20" duration="3"/>
+
+            </animation_sequence>
+	<animation_state>
+            <state>WALK_RIGHT</state>
+            <animation_sequence>
+                <pose image_id="24" duration="3"/>
+                <pose image_id="25" duration="3"/>
+                <pose image_id="26" duration="3"/>
+                <pose image_id="27" duration="3"/>
+                <pose image_id="28" duration="3"/>
+		<pose image_id="27" duration="3"/>
+                <pose image_id="26" duration="3"/>
+                <pose image_id="25" duration="3"/>
+
+            </animation_sequence>
+
+        </animation_state>
+
+        <animation_state>
+            <state>SHOOT_BACK</state>
+            <animation_sequence>
+                <pose image_id="29" duration="1"/>
+                <pose image_id="30" duration="2"/>
+                <pose image_id="31" duration="2"/>
+                <pose image_id="32" duration="2"/>
+                <pose image_id="33" duration="9"/>
+		<pose image_id="32" duration="2"/>
+                <pose image_id="31" duration="2"/>
+                <pose image_id="30" duration="2"/>
+
+            </animation_sequence>
+
+        </animation_state>
+
+	<animation_state>
+            <state>SHOOT_FRONT</state>
+            <animation_sequence>
+                <pose image_id="34" duration="1"/>
+                <pose image_id="35" duration="2"/>
+                <pose image_id="36" duration="2"/>
+                <pose image_id="37" duration="2"/>
+                <pose image_id="38" duration="9"/>
+		<pose image_id="37" duration="2"/>
+                <pose image_id="36" duration="2"/>
+                <pose image_id="35" duration="2"/>
+
+            </animation_sequence>
+
+        </animation_state>
+
+	<animation_state>
+            <state>SHOOT_LEFT</state>
+            <animation_sequence>
+                <pose image_id="39" duration="1"/>
+                <pose image_id="40" duration="2"/>
+                <pose image_id="41" duration="2"/>
+                <pose image_id="42" duration="9"/>
+                <pose image_id="41" duration="2"/>
+                <pose image_id="40" duration="2"/>
+
+            </animation_sequence>
+	</animation_state>
+
+	<animation_state>
+            <state>SHOOT_RIGHT</state>
+            <animation_sequence>
+                <pose image_id="43" duration="1"/>
+                <pose image_id="44" duration="2"/>
+                <pose image_id="45" duration="2"/>
+                <pose image_id="46" duration="9"/>
+                <pose image_id="45" duration="2"/>
+                <pose image_id="44" duration="2"/>
+
+            </animation_sequence>
+	</animation_state>
+
+	<animation_state>
+            <state>STRAFE_BACK</state>
+            <animation_sequence>
+                <pose image_id="47" duration="3"/>
+                <pose image_id="48" duration="3"/>
+                <pose image_id="49" duration="3"/>
+                <pose image_id="48" duration="3"/>
+
+            </animation_sequence>
+	</animation_state>
+
+	<animation_state>
+            <state>STRAFE_FRONT</state>
+            <animation_sequence>
+                <pose image_id="50" duration="3"/>
+                <pose image_id="51" duration="3"/>
+                <pose image_id="52" duration="3"/>
+                <pose image_id="51" duration="3"/>
+
+            </animation_sequence>
+	</animation_state>
+
+	<animation_state>
+            <state>STRAFE_LEFT</state>
+            <animation_sequence>
+                <pose image_id="53" duration="3"/>
+                <pose image_id="54" duration="3"/>
+                <pose image_id="55" duration="3"/>
+                <pose image_id="54" duration="3"/>
+
+            </animation_sequence>
+	</animation_state>
+
+	<animation_state>
+            <state>STRAFE_RIGHT</state>
+            <animation_sequence>
+                <pose image_id="56" duration="3"/>
+                <pose image_id="57" duration="3"/>
+                <pose image_id="58" duration="3"/>
+                <pose image_id="57" duration="3"/>
+
+            </animation_sequence>
+	</animation_state>
+
+	<animation_state>
+            <state>DAMAGE_FRONT</state>
+            <animation_sequence>
+                <pose image_id="59" duration="3"/>
+                <pose image_id="60" duration="3"/>
+                <pose image_id="61" duration="13"/>
+                <pose image_id="60" duration="3"/>
+
+            </animation_sequence>
+	</animation_state>
+
+	<animation_state>
+            <state>DAMAGE_LEFT</state>
+            <animation_sequence>
+                <pose image_id="62" duration="3"/>
+                <pose image_id="63" duration="15"/>
+
+            </animation_sequence>
+	</animation_state>	
+
+	<animation_state>
+            <state>DAMAGE_RIGHT</state>
+            <animation_sequence>
+                <pose image_id="64" duration="3"/>
+                <pose image_id="65" duration="15"/>
+
+            </animation_sequence>
+	</animation_state>
+
+
+	</animation_state>
+        
+    </animations_list>  
+</sprite_type>
