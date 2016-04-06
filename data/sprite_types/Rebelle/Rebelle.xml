@@ -51,7 +51,43 @@
         <image_file id="44" file_name="Rebelle_RIGHT_SHOOT_2.png"/>
         <image_file id="45" file_name="Rebelle_RIGHT_SHOOT_3.png"/>
         <image_file id="46" file_name="Rebelle_RIGHT_SHOOT_4.png"/>
-
+	<image_file id="47" file_name="Rebelle_BACK_STRAFE_1.png"/>
+        <image_file id="48" file_name="Rebelle_BACK_STRAFE_2.png"/>
+        <image_file id="49" file_name="Rebelle_BACK_STRAFE_3.png"/>
+	<image_file id="50" file_name="Rebelle_FRONT_STRAFE_1.png"/>
+        <image_file id="51" file_name="Rebelle_FRONT_STRAFE_2.png"/>
+        <image_file id="52" file_name="Rebelle_FRONT_STRAFE_3.png"/>
+	<image_file id="53" file_name="Rebelle_LEFT_STRAFE_1.png"/>
+        <image_file id="54" file_name="Rebelle_LEFT_STRAFE_2.png"/>
+        <image_file id="55" file_name="Rebelle_LEFT_STRAFE_3.png"/>
+	<image_file id="56" file_name="Rebelle_RIGHT_STRAFE_1.png"/>
+        <image_file id="57" file_name="Rebelle_RIGHT_STRAFE_2.png"/>
+        <image_file id="58" file_name="Rebelle_RIGHT_STRAFE_3.png"/>
+	<image_file id="59" file_name="Rebelle_FRONT_DAMAGE_1.png"/>
+        <image_file id="60" file_name="Rebelle_FRONT_DAMAGE_2.png"/>
+        <image_file id="61" file_name="Rebelle_FRONT_DAMAGE_3.png"/>
+	<image_file id="62" file_name="Rebelle_LEFT_DAMAGE_1.png"/>
+        <image_file id="63" file_name="Rebelle_LEFT_DAMAGE_2.png"/>
+	<image_file id="64" file_name="Rebelle_RIGHT_DAMAGE_1.png"/>
+        <image_file id="65" file_name="Rebelle_RIGHT_DAMAGE_2.png"/>
+	<image_file id="66" file_name="Rebelle_FRONT_IDLE.png"/>
+	<image_file id="67" file_name="Rebelle_LEFT_IDLE.png"/>
+	<image_file id="68" file_name="Rebelle_RIGHT_IDLE.png"/>
+	<image_file id="69" file_name="Rebelle_FRONT_JUMP.png"/>
+	<image_file id="70" file_name="Rebelle_LEFT_JUMP.png"/>
+	<image_file id="71" file_name="Rebelle_RIGHT_JUMP.png"/>
+	<image_file id="72" file_name="Rebelle_FRONT_PUNCH_1.png"/>
+        <image_file id="73" file_name="Rebelle_FRONT_PUNCH_2.png"/>
+        <image_file id="74" file_name="Rebelle_FRONT_PUNCH_3.png"/>
+        <image_file id="75" file_name="Rebelle_FRONT_PUNCH_4.png"/>
+	<image_file id="76" file_name="Rebelle_LEFT_PUNCH_1.png"/>
+        <image_file id="77" file_name="Rebelle_LEFT_PUNCH_2.png"/>
+        <image_file id="78" file_name="Rebelle_LEFT_PUNCH_3.png"/>
+        <image_file id="79" file_name="Rebelle_LEFT_PUNCH_4.png"/>
+	<image_file id="80" file_name="Rebelle_RIGHT_PUNCH_1.png"/>
+        <image_file id="81" file_name="Rebelle_RIGHT_PUNCH_2.png"/>
+        <image_file id="82" file_name="Rebelle_RIGHT_PUNCH_3.png"/>
+        <image_file id="83" file_name="Rebelle_RIGHT_PUNCH_4.png"/>
 
         
     </images_list>
@@ -93,6 +129,33 @@
         </animation_state>
 
 	<animation_state>
+            <state>IDLE_FRONT</state>
+            <animation_sequence>
+                <pose image_id="66" duration="2"/>
+                
+            </animation_sequence>
+
+        </animation_state>
+
+	<animation_state>
+            <state>IDLE_LEFT</state>
+            <animation_sequence>
+                <pose image_id="67" duration="2"/>
+                
+            </animation_sequence>
+
+        </animation_state>
+
+	<animation_state>
+            <state>IDLE_RIGHT</state>
+            <animation_sequence>
+                <pose image_id="68" duration="2"/>
+                
+            </animation_sequence>
+
+        </animation_state>
+
+	<animation_state>
             <state>JUMP_BACK</state>
             <animation_sequence>
                 <pose image_id="9" duration="2"/>
@@ -102,12 +165,75 @@
         </animation_state>
 
 	<animation_state>
+            <state>JUMP_FRONT</state>
+            <animation_sequence>
+                <pose image_id="69" duration="2"/>
+                
+            </animation_sequence>
+
+        </animation_state>
+
+	<animation_state>
+            <state>JUMP_LEFT</state>
+            <animation_sequence>
+                <pose image_id="70" duration="2"/>
+                
+            </animation_sequence>
+
+        </animation_state>
+
+	<animation_state>
+            <state>JUMP_RIGHT</state>
+            <animation_sequence>
+                <pose image_id="71" duration="2"/>
+                
+            </animation_sequence>
+
+        </animation_state>
+
+	<animation_state>
             <state>PUNCH_BACK</state>
             <animation_sequence>
-                <pose image_id="10" duration="3"/>
+                <pose image_id="10" duration="6"/>
                 <pose image_id="11" duration="3"/>
                 <pose image_id="12" duration="3"/>
                 <pose image_id="13" duration="6"/>
+
+            </animation_sequence>
+
+        </animation_state>
+
+	<animation_state>
+            <state>PUNCH_LEFT</state>
+            <animation_sequence>
+                <pose image_id="76" duration="6"/>
+                <pose image_id="77" duration="3"/>
+                <pose image_id="78" duration="3"/>
+                <pose image_id="79" duration="6"/>
+
+            </animation_sequence>
+
+        </animation_state>
+
+	<animation_state>
+            <state>PUNCH_RIGHT</state>
+            <animation_sequence>
+                <pose image_id="80" duration="6"/>
+                <pose image_id="81" duration="3"/>
+                <pose image_id="82" duration="3"/>
+                <pose image_id="83" duration="6"/>
+
+            </animation_sequence>
+
+        </animation_state>
+
+	<animation_state>
+            <state>PUNCH_FRONT</state>
+            <animation_sequence>
+                <pose image_id="72" duration="6"/>
+                <pose image_id="73" duration="3"/>
+                <pose image_id="74" duration="3"/>
+                <pose image_id="75" duration="6"/>
 
             </animation_sequence>
 
@@ -214,7 +340,80 @@
                 <pose image_id="44" duration="2"/>
 
             </animation_sequence>
+	</animation_state>
+
+	<animation_state>
+            <state>STRAFE_BACK</state>
+            <animation_sequence>
+                <pose image_id="47" duration="3"/>
+                <pose image_id="48" duration="3"/>
+                <pose image_id="49" duration="3"/>
+                <pose image_id="48" duration="3"/>
+
+            </animation_sequence>
+	</animation_state>
+
+	<animation_state>
+            <state>STRAFE_FRONT</state>
+            <animation_sequence>
+                <pose image_id="50" duration="3"/>
+                <pose image_id="51" duration="3"/>
+                <pose image_id="52" duration="3"/>
+                <pose image_id="51" duration="3"/>
+
+            </animation_sequence>
+	</animation_state>
+
+	<animation_state>
+            <state>STRAFE_LEFT</state>
+            <animation_sequence>
+                <pose image_id="53" duration="3"/>
+                <pose image_id="54" duration="3"/>
+                <pose image_id="55" duration="3"/>
+                <pose image_id="54" duration="3"/>
+
+            </animation_sequence>
+	</animation_state>
+
+	<animation_state>
+            <state>STRAFE_RIGHT</state>
+            <animation_sequence>
+                <pose image_id="56" duration="3"/>
+                <pose image_id="57" duration="3"/>
+                <pose image_id="58" duration="3"/>
+                <pose image_id="57" duration="3"/>
+
+            </animation_sequence>
+	</animation_state>
+
+	<animation_state>
+            <state>DAMAGE_FRONT</state>
+            <animation_sequence>
+                <pose image_id="59" duration="3"/>
+                <pose image_id="60" duration="3"/>
+                <pose image_id="61" duration="13"/>
+                <pose image_id="60" duration="3"/>
+
+            </animation_sequence>
+	</animation_state>
+
+	<animation_state>
+            <state>DAMAGE_LEFT</state>
+            <animation_sequence>
+                <pose image_id="62" duration="3"/>
+                <pose image_id="63" duration="15"/>
+
+            </animation_sequence>
 	</animation_state>	
+
+	<animation_state>
+            <state>DAMAGE_RIGHT</state>
+            <animation_sequence>
+                <pose image_id="64" duration="3"/>
+                <pose image_id="65" duration="15"/>
+
+            </animation_sequence>
+	</animation_state>
 
 
 	</animation_state>
