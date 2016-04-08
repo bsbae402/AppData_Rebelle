@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sprite_type>
+    <width>64</width>
+    <height>64</height>
+    <images_list>
+        <image_file id="0" file_name="MoneyObject.png" />
+		<image_file id="1" file_name="TransparentTile64by64.png" />
+    </images_list>
+    <animations_list>
+		<animation_state>
+			<state>BEING</state>
+			<animation_sequence>
+				<pose image_id="0" duration="10"/>
+			</animation_sequence>
+		</animation_state>
+		
+		<animation_state>
+			<state>VANISHING</state>
+			<animation_sequence>
+				<pose image_id="1" duration="5" />
+				<pose image_id="0" duration="5" />
+				<pose image_id="1" duration="5" />
+				<pose image_id="0" duration="5" />
+				<pose image_id="1" duration="5" />
+				<pose image_id="0" duration="5" />
+			</animation_sequence>
+		</animation_state>
+	</animations_list>  
+</sprite_type>

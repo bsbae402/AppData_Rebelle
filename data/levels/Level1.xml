@@ -8,7 +8,7 @@
   <level_map map_dir="data/maps/LibraryLevel/" map_file="Library.tmx" />
   
   <!-- COMPLETE LIST OF SPRITE TYPES USED FOR THIS LEVEL TO BE LOADED AT LEVEL LOAD TIME -->
-  <level_sprite_types sprite_types_dir="data/sprite_types/" sprite_types_file="RebelleEnemies.xml" />
+  <level_sprite_types sprite_types_dir="data/sprite_types/" sprite_types_file="RebelleSpriteTypes.xml" />
   
   <!-- THESE ARE THE BOT TYPES THE LEVEL WILL BE SPAWNING -->
   <level_bot_types>
@@ -28,4 +28,12 @@
   <players>
 	<player sprite_type="flower_mantis" init_x="300"  init_y="650" init_bot_state="MOVING" init_sprite_state="IDLE"/>
   </players>
+  
+  <level_objects>
+	<level_object object_type="money"	sprite_type="money"	object_id="0"	init_x="1920"	init_y="576"	/>
+	<level_object object_type="money"	sprite_type="money"	object_id="1"	init_x="384"	init_y="1216"	/>
+	<level_object object_type="money"	sprite_type="money"	object_id="2"	init_x="3072"	init_y="1216"	/>
+	<level_object object_type="money"	sprite_type="money"	object_id="3"	init_x="2432"	init_y="2432"	/>
+	<level_object object_type="money"	sprite_type="money"	object_id="4"	init_x="64"	init_y="2944"	/>
+  </level_objects>
 </level>
