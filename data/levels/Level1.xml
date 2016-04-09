@@ -24,16 +24,17 @@
   <spawning_pools>
 
   </spawning_pools>
+  
   <!-- PLAYER -->
   <players>
-	<player sprite_type="flower_mantis" init_x="300"  init_y="650" init_bot_state="MOVING" init_sprite_state="IDLE"/>
+	  <player sprite_type="rebelle" init_x="300"  init_y="650" init_player_state="PLAYER_IDLE" init_sprite_state="IDLE_BACK"/>
   </players>
   
   <level_objects>
-	<level_object object_type="money"	sprite_type="money"	object_id="0"	init_x="1920"	init_y="576"	/>
-	<level_object object_type="money"	sprite_type="money"	object_id="1"	init_x="384"	init_y="1216"	/>
-	<level_object object_type="money"	sprite_type="money"	object_id="2"	init_x="3072"	init_y="1216"	/>
-	<level_object object_type="money"	sprite_type="money"	object_id="3"	init_x="2432"	init_y="2432"	/>
-	<level_object object_type="money"	sprite_type="money"	object_id="4"	init_x="64"	init_y="2944"	/>
+	  <level_object object_type="money"	sprite_type="money"	object_id="0"	init_x="1920"	init_y="576"	/>
+	  <level_object object_type="money"	sprite_type="money"	object_id="1"	init_x="384"	init_y="1216"	/>
+	  <level_object object_type="money"	sprite_type="money"	object_id="2"	init_x="3072"	init_y="1216"	/>
+	  <level_object object_type="money"	sprite_type="money"	object_id="3"	init_x="2432"	init_y="2432"	/>
+	  <level_object object_type="money"	sprite_type="money"	object_id="4"	init_x="64"	init_y="2944"	/>
   </level_objects>
 </level>
