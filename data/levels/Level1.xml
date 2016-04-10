@@ -12,12 +12,28 @@
   
   <!-- THESE ARE THE BOT TYPES THE LEVEL WILL BE SPAWNING -->
   <level_bot_types>
+  <bot type="big_red"  sprite_type="western_kentucky_big_red" MOVING="deterministic"  DYING="recycle" SPAWNING="random" max_velocity="5"/>
+  <bot type="purple" sprite_type="evansville_purple_aces" MOVING="deterministic" DYING="recycle" SPAWNING="random" max_velocity="5"/>
 
   </level_bot_types>
   
   <!-- INITIAL BOTS WHEN THE LEVEL STARTS -->
   <bots_list>
-
+	<bot type="big_red"   init_x="1200"  init_y="550" final_x="1700" final_y="550" init_vx="2" init_vy="2" init_bot_state="MOVING" init_sprite_state="IDLE" />
+	
+	<bot type="purple"   init_x="100"  init_y="1900" final_x="500" final_y="1900" init_vx="2" init_vy="2" init_bot_state="MOVING" init_sprite_state="IDLE" />
+	
+	<bot type="big_red"   init_x="150"  init_y="2400" final_x="850" final_y="2400" init_vx="2" init_vy="2" init_bot_state="MOVING" init_sprite_state="IDLE" />
+	
+	<bot type="purple"   init_x="1200"  init_y="2850" final_x="1800" final_y="2850"init_vx="2" init_vy="2" init_bot_state="MOVING" init_sprite_state="IDLE" />
+	
+	<bot type="big_red"   init_x="1300"  init_y="1400" final_x="1700" final_y="1400"init_vx="2" init_vy="2" init_bot_state="MOVING" init_sprite_state="IDLE" />
+	
+	<bot type="purple"   init_x="2800"  init_y="400" final_x="2800" final_y="1400" init_vx="2" init_vy="2" init_bot_state="MOVING" init_sprite_state="IDLE" />
+	
+	<bot type="big_red"   init_x="3050"  init_y="2700" final_x="3050" final_y="1700" init_vx="2" init_vy="2" init_bot_state="MOVING" init_sprite_state="IDLE" />
+	
+	<bot type="purple"   init_x="2450"  init_y="2650" final_x="2450" final_y="2850" init_vx="2" init_vy="2" init_bot_state="MOVING" init_sprite_state="IDLE" />
   </bots_list>
   
   <!-- WE CAN EVEN SPECIFY BOT SPAWN LOCATIONS -->

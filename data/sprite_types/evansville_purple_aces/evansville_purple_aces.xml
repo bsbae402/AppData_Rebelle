@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sprite_type>
+    <image_config>SEPARATED</image_config>
+    <width>128</width>
+    <height>128</height>
+    <images_list>
+        <image_file id="0" file_name="university_of_evansville_acePurple_Idle01.png"/>
+        <image_file id="1" file_name="university_of_evansville_acePurple_Idle02.png"/>
+        <image_file id="2" file_name="university_of_evansville_acePurple_Idle03.png"/>
+        <image_file id="3" file_name="university_of_evansville_acePurple_Idle04.png"/>
+        <image_file id="4" file_name="university_of_evansville_acePurple_Idle05.png"/>
+        <image_file id="5" file_name="university_of_evansville_acePurple_MoveRight01.png"/>
+        <image_file id="6" file_name="university_of_evansville_acePurple_MoveRight02.png"/>
+        <image_file id="7" file_name="university_of_evansville_acePurple_MoveRight03.png"/>
+        <image_file id="8" file_name="university_of_evansville_acePurple_MoveRight04.png"/>
+        <image_file id="9" file_name="university_of_evansville_acePurple_MoveLeft01.png"/>
+        <image_file id="10" file_name="university_of_evansville_acePurple_MoveLeft02.png"/>
+        <image_file id="11" file_name="university_of_evansville_acePurple_MoveLeft03.png"/>
+        <image_file id="12" file_name="university_of_evansville_acePurple_MoveLeft04.png"/>
+        <image_file id="13" file_name="university_of_evansville_acePurple_JumpRight01.png"/>
+        <image_file id="14" file_name="university_of_evansville_acePurple_JumpRight02.png"/>
+        <image_file id="15" file_name="university_of_evansville_acePurple_JumpRight03.png"/>
+        <image_file id="16" file_name="university_of_evansville_acePurple_JumpRight04.png"/>
+        <image_file id="17" file_name="university_of_evansville_acePurple_JumpLeft01.png"/>
+        <image_file id="18" file_name="university_of_evansville_acePurple_JumpLeft02.png"/>
+        <image_file id="19" file_name="university_of_evansville_acePurple_JumpLeft03.png"/>
+        <image_file id="20" file_name="university_of_evansville_acePurple_JumpLeft04.png"/>
+        <image_file id="21" file_name="university_of_evansville_acePurple_AttackRight01.png"/>
+        <image_file id="22" file_name="university_of_evansville_acePurple_AttackRight02.png"/>
+        <image_file id="23" file_name="university_of_evansville_acePurple_AttackRight03.png"/>
+        <image_file id="24" file_name="university_of_evansville_acePurple_AttackRight04.png"/>
+        <image_file id="25" file_name="university_of_evansville_acePurple_AttackRight05.png"/>
+        <image_file id="26" file_name="university_of_evansville_acePurple_AttackLeft01.png"/>
+        <image_file id="27" file_name="university_of_evansville_acePurple_AttackLeft02.png"/>
+        <image_file id="28" file_name="university_of_evansville_acePurple_AttackLeft03.png"/>
+        <image_file id="29" file_name="university_of_evansville_acePurple_AttackLeft04.png"/>
+        <image_file id="30" file_name="university_of_evansville_acePurple_AttackLeft05.png"/>
+        <image_file id="31" file_name="university_of_evansville_acePurple_FallRight01.png"/>
+        <image_file id="32" file_name="university_of_evansville_acePurple_FallRight02.png"/>
+        <image_file id="33" file_name="university_of_evansville_acePurple_FallRight03.png"/>
+        <image_file id="34" file_name="university_of_evansville_acePurple_FallRight04.png"/>
+        <image_file id="35" file_name="university_of_evansville_acePurple_FallRight05.png"/>
+        <image_file id="36" file_name="university_of_evansville_acePurple_FallLeft01.png"/>
+        <image_file id="37" file_name="university_of_evansville_acePurple_FallLeft02.png"/>
+        <image_file id="38" file_name="university_of_evansville_acePurple_FallLeft03.png"/>
+        <image_file id="39" file_name="university_of_evansville_acePurple_FallLeft04.png"/>
+        <image_file id="40" file_name="university_of_evansville_acePurple_FallLeft05.png"/>
+        <image_file id="41" file_name="university_of_evansville_acePurple_DamageRight01.png"/>
+        <image_file id="42" file_name="university_of_evansville_acePurple_DamageRight02.png"/>
+        <image_file id="43" file_name="university_of_evansville_acePurple_DamageRight03.png"/>
+        <image_file id="44" file_name="university_of_evansville_acePurple_DamageRight04.png"/>
+        <image_file id="45" file_name="university_of_evansville_acePurple_DamageRight05.png"/>
+        <image_file id="46" file_name="university_of_evansville_acePurple_DamageLeft01.png"/>
+        <image_file id="47" file_name="university_of_evansville_acePurple_DamageLeft02.png"/>
+        <image_file id="48" file_name="university_of_evansville_acePurple_DamageLeft03.png"/>
+        <image_file id="49" file_name="university_of_evansville_acePurple_DamageLeft04.png"/>
+        <image_file id="50" file_name="university_of_evansville_acePurple_DamageLeft05.png"/>
+        <image_file id="51" file_name="university_of_evansville_acePurple_Death01.png"/>
+        <image_file id="52" file_name="university_of_evansville_acePurple_Death02.png"/>
+        <image_file id="53" file_name="university_of_evansville_acePurple_Death03.png"/>
+        <image_file id="54" file_name="university_of_evansville_acePurple_Death04.png"/>
+        <image_file id="55" file_name="university_of_evansville_acePurple_Death05.png"/>
+
+		
+
+    </images_list>
+    <animations_list>
+        <animation_state>
+            <state>IDLE</state>
+            <animation_sequence>
+                <pose image_id="0" duration="10"/>
+                <pose image_id="1" duration="10"/>
+				<pose image_id="0" duration="10"/>
+                <pose image_id="1" duration="10"/>
+				<pose image_id="0" duration="10"/>
+                <pose image_id="1" duration="10"/>
+				<pose image_id="0" duration="10"/>
+                <pose image_id="1" duration="10"/>
+                <pose image_id="2" duration="10"/>
+                <pose image_id="3" duration="10"/>
+                <pose image_id="4" duration="10"/>
+				<pose image_id="3" duration="10"/>
+                <pose image_id="4" duration="10"/>
+				<pose image_id="3" duration="10"/>
+                <pose image_id="4" duration="10"/>
+				<pose image_id="3" duration="10"/>
+                <pose image_id="4" duration="10"/>
+				<pose image_id="3" duration="10"/>
+                <pose image_id="4" duration="10"/>
+				<pose image_id="3" duration="10"/>
+                <pose image_id="4" duration="10"/>
+			</animation_sequence>
+        </animation_state>
+        <animation_state>
+            <state>MOVE_RIGHT</state>
+            <animation_sequence>
+                <pose image_id="5" duration="4"/>
+                <pose image_id="6" duration="4"/>
+                <pose image_id="7" duration="4"/>
+                <pose image_id="8" duration="4"/>
+            </animation_sequence>
+        </animation_state>
+		<animation_state>
+            <state>MOVE_LEFT</state>
+            <animation_sequence>
+                <pose image_id="9" duration="4"/>
+                <pose image_id="10" duration="4"/>
+                <pose image_id="11" duration="4"/>
+                <pose image_id="12" duration="4"/>
+            </animation_sequence>
+        </animation_state>
+        <animation_state>
+            <state>JUMP_RIGHT</state>
+            <animation_sequence>
+                <pose image_id="13" duration="3"/>
+                <pose image_id="14" duration="3"/>
+                <pose image_id="15" duration="3"/>
+                <pose image_id="16" duration="3"/>
+            </animation_sequence>
+        </animation_state>
+		<animation_state>
+            <state>JUMP_LEFT</state>
+            <animation_sequence>
+                <pose image_id="17" duration="3"/>
+                <pose image_id="18" duration="3"/>
+                <pose image_id="19" duration="3"/>
+                <pose image_id="20" duration="3"/>
+            </animation_sequence>
+        </animation_state>		
+        <animation_state>
+            <state>ATTACKING_RIGHT</state>
+            <animation_sequence>
+				<pose image_id="21" duration="2"/>
+                <pose image_id="22" duration="2"/>
+                <pose image_id="23" duration="2"/>
+                <pose image_id="24" duration="2"/>
+                <pose image_id="25" duration="2"/>
+            </animation_sequence>
+        </animation_state>
+       <animation_state>
+            <state>ATTACKING_LEFT</state>
+            <animation_sequence>
+				<pose image_id="26" duration="2"/>
+                <pose image_id="27" duration="2"/>
+                <pose image_id="28" duration="2"/>
+                <pose image_id="29" duration="2"/>
+                <pose image_id="30" duration="2"/>
+            </animation_sequence>
+        </animation_state>
+        <animation_state>
+            <state>FALL_RIGHT</state>
+            <animation_sequence>
+				<pose image_id="31" duration="2"/>
+                <pose image_id="32" duration="2"/>
+                <pose image_id="33" duration="2"/>
+                <pose image_id="34" duration="2"/>
+                <pose image_id="35" duration="2"/>
+            </animation_sequence>
+        </animation_state>
+       <animation_state>
+            <state>FALL_LEFT</state>
+            <animation_sequence>
+				<pose image_id="36" duration="2"/>
+                <pose image_id="37" duration="2"/>
+                <pose image_id="38" duration="2"/>
+                <pose image_id="39" duration="2"/>
+                <pose image_id="40" duration="2"/>
+            </animation_sequence>
+        </animation_state>
+		<animation_state>
+            <state>DAMAGE_RIGHT</state>
+            <animation_sequence>
+				<pose image_id="41" duration="2"/>
+                <pose image_id="42" duration="2"/>
+                <pose image_id="43" duration="2"/>
+                <pose image_id="44" duration="2"/>
+                <pose image_id="45" duration="2"/>
+            </animation_sequence>
+        </animation_state>
+       <animation_state>
+            <state>DAMAGE_LEFT</state>
+            <animation_sequence>
+				<pose image_id="46" duration="2"/>
+                <pose image_id="47" duration="2"/>
+                <pose image_id="48" duration="2"/>
+                <pose image_id="49" duration="2"/>
+                <pose image_id="50" duration="2"/>
+            </animation_sequence>
+        </animation_state>
+		<animation_state>
+            <state>DEATH</state>
+            <animation_sequence>
+				<pose image_id="51" duration="2"/>
+                <pose image_id="52" duration="3"/>
+                <pose image_id="53" duration="4"/>
+                <pose image_id="54" duration="4"/>
+                <pose image_id="55" duration="7"/>
+            </animation_sequence>
+        </animation_state>
+    </animations_list>  
+</sprite_type>
