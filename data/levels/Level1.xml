@@ -25,9 +25,9 @@
 	
 	<bot type="big_red"   init_x="150"  init_y="2400" final_x="850" final_y="2400" init_vx="2" init_vy="2" init_bot_state="MOVING" init_sprite_state="IDLE" />
 	
-	<bot type="purple"   init_x="1200"  init_y="2850" final_x="1800" final_y="2850"init_vx="2" init_vy="2" init_bot_state="MOVING" init_sprite_state="IDLE" />
+	<bot type="purple"   init_x="1200"  init_y="2850" final_x="1800" final_y="2850" init_vx="2" init_vy="2" init_bot_state="MOVING" init_sprite_state="IDLE" />
 	
-	<bot type="big_red"   init_x="1300"  init_y="1400" final_x="1700" final_y="1400"init_vx="2" init_vy="2" init_bot_state="MOVING" init_sprite_state="IDLE" />
+	<bot type="big_red"   init_x="1300"  init_y="1400" final_x="1700" final_y="1400" init_vx="2" init_vy="2" init_bot_state="MOVING" init_sprite_state="IDLE" />
 	
 	<bot type="purple"   init_x="2800"  init_y="400" final_x="2800" final_y="1400" init_vx="2" init_vy="2" init_bot_state="MOVING" init_sprite_state="IDLE" />
 	
@@ -53,4 +53,9 @@
 	  <level_object object_type="money"	sprite_type="money"	object_id="3"	init_x="2432"	init_y="2432"	/>
 	  <level_object object_type="money"	sprite_type="money"	object_id="4"	init_x="64"	init_y="2944"	/>
   </level_objects>
+
+  <bullets>
+    <bullet object_type="bullet" sprite_type="bullet" object_id="5" init_x="50" init_y="130" />
+  </bullets>
+  
 </level>
