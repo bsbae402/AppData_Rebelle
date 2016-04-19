@@ -112,9 +112,28 @@
         <image_file id="81" file_name="Rebelle_RIGHT_PUNCH_2.png"/>
         <image_file id="82" file_name="Rebelle_RIGHT_PUNCH_3.png"/>
         <image_file id="83" file_name="Rebelle_RIGHT_PUNCH_4.png"/>
+
+	<image_file id="84" file_name="Rebelle_DYING_1.png"/>
+        <image_file id="85" file_name="Rebelle_DYING_2.png"/>
+        <image_file id="86" file_name="Rebelle_DYING_3.png"/>
+        <image_file id="87" file_name="Rebelle_DYING_4.png"/>
+        <image_file id="88" file_name="Rebelle_DYING_5.png"/>
         
     </images_list>
     <animations_list>
+
+	<animation_state>
+            <state>DYING</state>
+            <animation_sequence>
+                <pose image_id="84" duration="7"/>
+                <pose image_id="85" duration="5"/>
+                <pose image_id="86" duration="4"/>
+                <pose image_id="87" duration="4"/>
+                <pose image_id="88" duration="20"/>
+
+            </animation_sequence>
+        </animation_state>
+
         <animation_state>
             <state>WALK_BACK</state>
             <animation_sequence>

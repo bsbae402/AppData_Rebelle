@@ -188,7 +188,7 @@
             </animation_sequence>
         </animation_state>
 		<animation_state>
-            <state>DEATH</state>
+            <state>DIE</state>
             <animation_sequence>
 				<pose image_id="51" duration="2"/>
                 <pose image_id="52" duration="3"/>
