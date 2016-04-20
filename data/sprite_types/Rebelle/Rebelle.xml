@@ -298,52 +298,52 @@
         <animation_state>
             <state>SHOOT_BACK</state>
             <animation_sequence>
-                <pose image_id="29" duration="1"/>
-                <pose image_id="30" duration="2"/>
-                <pose image_id="31" duration="2"/>
+               
+                
                 <pose image_id="32" duration="2"/>
-                <pose image_id="33" duration="9"/>
-				<pose image_id="32" duration="2"/>
-                <pose image_id="31" duration="2"/>
-                <pose image_id="30" duration="2"/>
+                <pose image_id="32" duration="2"/>
+		<pose image_id="32" duration="2"/>
+                
+		
             </animation_sequence>
         </animation_state>
 
 		<animation_state>
             <state>SHOOT_FRONT</state>
             <animation_sequence>
-                <pose image_id="34" duration="1"/>
-                <pose image_id="35" duration="2"/>
-                <pose image_id="36" duration="2"/>
-                <pose image_id="37" duration="2"/>
-                <pose image_id="38" duration="9"/>
-				<pose image_id="37" duration="2"/>
-                <pose image_id="36" duration="2"/>
-                <pose image_id="35" duration="2"/>
+ 
+		
+                <pose image_id="38" duration="2"/>
+                <pose image_id="38" duration="2"/>
+		<pose image_id="38" duration="2"/>
+                
+
             </animation_sequence>
         </animation_state>
 
 		<animation_state>
             <state>SHOOT_LEFT</state>
             <animation_sequence>
-                <pose image_id="39" duration="1"/>
-                <pose image_id="40" duration="2"/>
-                <pose image_id="41" duration="2"/>
-                <pose image_id="42" duration="9"/>
-                <pose image_id="41" duration="2"/>
-                <pose image_id="40" duration="2"/>
+		
+                <pose image_id="42" duration="2"/>
+                <pose image_id="42" duration="2"/>
+		<pose image_id="42" duration="2"/>
+                
+		
+ 
             </animation_sequence>
 		</animation_state>
 
 		<animation_state>
             <state>SHOOT_RIGHT</state>
             <animation_sequence>
-                <pose image_id="43" duration="1"/>
-                <pose image_id="44" duration="2"/>
-                <pose image_id="45" duration="2"/>
-                <pose image_id="46" duration="9"/>
-                <pose image_id="45" duration="2"/>
-                <pose image_id="44" duration="2"/>
+		
+		
+		
+                <pose image_id="46" duration="2"/>
+		<pose image_id="46" duration="2"/>
+		<pose image_id="46" duration="2"/>
+
             </animation_sequence>
 		</animation_state>
 

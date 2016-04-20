@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sprite_type>
+    <width>128</width>
+    <height>128</height>
+    <images_list>
+        <image_file id="0" file_name="Enemy_BACK_1.png"/>
+        <image_file id="1" file_name="Enemy_BACK_2.png"/>
+        <image_file id="2" file_name="Enemy_BACK_3.png"/>
+        <image_file id="3" file_name="Enemy_BACK_4.png"/>
+        <image_file id="4" file_name="Enemy_BACK_5.png"/>
+		
+		<image_file id="5" file_name="Enemy_BACK_DAMAGE_1.png"/>
+        <image_file id="6" file_name="Enemy_BACK_DAMAGE_2.png"/>
+        
+		
+		<image_file id="8" file_name="Enemy_BACK_IDLE.png"/>
+		
+	
+        
+		<image_file id="10" file_name="Enemy_BACK_PUNCH_1.png"/>
+        <image_file id="11" file_name="Enemy_BACK_PUNCH_2.png"/>
+        <image_file id="12" file_name="Enemy_BACK_PUNCH_3.png"/>
+        
+		
+		<image_file id="14" file_name="Enemy_FRONT_1.png"/>
+        <image_file id="15" file_name="Enemy_FRONT_2.png"/>
+        <image_file id="16" file_name="Enemy_FRONT_3.png"/>
+        <image_file id="17" file_name="Enemy_FRONT_4.png"/>
+        <image_file id="18" file_name="Enemy_FRONT_5.png"/>
+		
+		<image_file id="19" file_name="Enemy_LEFT_1.png"/>
+        <image_file id="20" file_name="Enemy_LEFT_2.png"/>
+        <image_file id="21" file_name="Enemy_LEFT_3.png"/>
+		
+		
+		
+		<image_file id="24" file_name="Enemy_RIGHT_1.png"/>
+        <image_file id="25" file_name="Enemy_RIGHT_2.png"/>
+        <image_file id="26" file_name="Enemy_RIGHT_3.png"/>
+	
+		
+        <image_file id="32" file_name="Enemy_BACK_SHOOT_3.png"/>
+   
+        <image_file id="38" file_name="Enemy_FRONT_SHOOT_3.png"/>
+        
+		
+		<image_file id="42" file_name="Enemy_LEFT_SHOOT.png"/>
+
+		
+		<image_file id="46" file_name="Enemy_RIGHT_SHOOT.png"/>
+		
+		<image_file id="47" file_name="Enemy_BACK_STRAFE_1.png"/>
+        <image_file id="48" file_name="Enemy_BACK_STRAFE_2.png"/>
+        <image_file id="49" file_name="Enemy_BACK_STRAFE_3.png"/>
+		
+		<image_file id="50" file_name="Enemy_FRONT_STRAFE_1.png"/>
+        <image_file id="51" file_name="Enemy_FRONT_STRAFE_2.png"/>
+        <image_file id="52" file_name="Enemy_FRONT_STRAFE_3.png"/>
+		
+		<image_file id="53" file_name="Enemy_LEFT_STRAFE_1.png"/>
+        <image_file id="54" file_name="Enemy_LEFT_STRAFE_2.png"/>
+        <image_file id="55" file_name="Enemy_LEFT_STRAFE_3.png"/>
+		
+		<image_file id="56" file_name="Enemy_RIGHT_STRAFE_1.png"/>
+        <image_file id="57" file_name="Enemy_RIGHT_STRAFE_2.png"/>
+        <image_file id="58" file_name="Enemy_RIGHT_STRAFE_3.png"/>
+	
+		<image_file id="59" file_name="Enemy_FRONT_DAMAGE_1.png"/>
+        <image_file id="60" file_name="Enemy_FRONT_DAMAGE_2.png"/>
+		
+		<image_file id="62" file_name="Enemy_LEFT_DAMAGE_1.png"/>
+        <image_file id="63" file_name="Enemy_LEFT_DAMAGE_2.png"/>
+		
+		<image_file id="64" file_name="Enemy_RIGHT_DAMAGE_1.png"/>
+        <image_file id="65" file_name="Enemy_RIGHT_DAMAGE_2.png"/>
+		
+		<image_file id="66" file_name="Enemy_FRONT_IDLE.png"/>
+		<image_file id="67" file_name="Enemy_LEFT_IDLE.png"/>
+		<image_file id="68" file_name="Enemy_RIGHT_IDLE.png"/>
+		
+		<image_file id="72" file_name="Enemy_FRONT_PUNCH_1.png"/>
+        <image_file id="73" file_name="Enemy_FRONT_PUNCH_2.png"/>
+        <image_file id="74" file_name="Enemy_FRONT_PUNCH_3.png"/>
+		
+		<image_file id="76" file_name="Enemy_LEFT_PUNCH_1.png"/>
+        <image_file id="77" file_name="Enemy_LEFT_PUNCH_2.png"/>
+        <image_file id="78" file_name="Enemy_LEFT_PUNCH_3.png"/>
+		
+		<image_file id="80" file_name="Enemy_RIGHT_PUNCH_1.png"/>
+        <image_file id="81" file_name="Enemy_RIGHT_PUNCH_2.png"/>
+        <image_file id="82" file_name="Enemy_RIGHT_PUNCH_3.png"/>
+
+	<image_file id="84" file_name="Enemy_DYING_1.png"/>
+        <image_file id="85" file_name="Enemy_DYING_2.png"/>
+        <image_file id="86" file_name="Enemy_DYING_3.png"/>
+        <image_file id="87" file_name="Enemy_DYING_4.png"/>
+        
+        
+    </images_list>
+    <animations_list>
+
+	<animation_state>
+            <state>DYING</state>
+            <animation_sequence>
+                <pose image_id="84" duration="7"/>
+                <pose image_id="85" duration="5"/>
+                <pose image_id="86" duration="4"/>
+                <pose image_id="87" duration="20"/>
+
+            </animation_sequence>
+        </animation_state>
+
+	<animation_state>
+            <state>DEAD</state>
+            <animation_sequence>
+                <pose image_id="87" duration="20"/>
+
+            </animation_sequence>
+        </animation_state>
+
+        <animation_state>
+            <state>WALK_BACK</state>
+            <animation_sequence>
+                <pose image_id="0" duration="3"/>
+                <pose image_id="1" duration="3"/>
+                <pose image_id="2" duration="2"/>
+                <pose image_id="3" duration="2"/>
+                <pose image_id="4" duration="2"/>
+				<pose image_id="3" duration="2"/>
+                <pose image_id="2" duration="3"/>
+                <pose image_id="1" duration="3"/>
+            </animation_sequence>
+        </animation_state>
+
+		<animation_state>
+            <state>DAMAGE_BACK</state>
+            <animation_sequence>
+                <pose image_id="5" duration="2"/>
+                <pose image_id="6" duration="9"/>
+            </animation_sequence>
+        </animation_state>
+
+		<animation_state>
+            <state>IDLE_BACK</state>
+            <animation_sequence>
+                <pose image_id="8" duration="2"/>        
+            </animation_sequence>
+        </animation_state>
+
+		<animation_state>
+            <state>IDLE_FRONT</state>
+            <animation_sequence>
+                <pose image_id="66" duration="2"/>        
+            </animation_sequence>
+        </animation_state>
+
+		<animation_state>
+            <state>IDLE_LEFT</state>
+            <animation_sequence>
+                <pose image_id="67" duration="2"/>
+            </animation_sequence>
+        </animation_state>
+
+		<animation_state>
+            <state>IDLE_RIGHT</state>
+            <animation_sequence>
+                <pose image_id="68" duration="2"/>        
+            </animation_sequence>
+        </animation_state>
+
+		<animation_state>
+            <state>PUNCH_BACK</state>
+            <animation_sequence>
+                <pose image_id="10" duration="3"/>
+                <pose image_id="11" duration="3"/>
+                <pose image_id="12" duration="3"/>
+            </animation_sequence>
+        </animation_state>
+
+		<animation_state>
+            <state>PUNCH_LEFT</state>
+            <animation_sequence>
+                <pose image_id="76" duration="3"/>
+                <pose image_id="77" duration="3"/>
+                <pose image_id="78" duration="3"/>
+            </animation_sequence>
+        </animation_state>
+
+		<animation_state>
+            <state>PUNCH_RIGHT</state>
+            <animation_sequence>
+                <pose image_id="80" duration="3"/>
+                <pose image_id="81" duration="3"/>
+                <pose image_id="82" duration="3"/>
+            </animation_sequence>
+        </animation_state>
+
+		<animation_state>
+            <state>PUNCH_FRONT</state>
+            <animation_sequence>
+                <pose image_id="72" duration="3"/>
+                <pose image_id="73" duration="3"/>
+                <pose image_id="74" duration="3"/>
+            </animation_sequence>
+        </animation_state>
+
+		<animation_state>
+            <state>WALK_FRONT</state>
+            <animation_sequence>
+                <pose image_id="14" duration="3"/>
+                <pose image_id="15" duration="3"/>
+                <pose image_id="16" duration="3"/>
+                <pose image_id="17" duration="3"/>
+		<pose image_id="18" duration="3"/>
+                <pose image_id="17" duration="3"/>
+                <pose image_id="16" duration="3"/>
+		<pose image_id="15" duration="3"/>
+            </animation_sequence>
+        </animation_state>
+
+		<animation_state>
+            <state>WALK_LEFT</state>
+            <animation_sequence>
+                <pose image_id="19" duration="3"/>
+                <pose image_id="20" duration="3"/>
+                <pose image_id="21" duration="3"/>
+                <pose image_id="20" duration="3"/>
+            </animation_sequence>
+		</animation_state>
+	
+		<animation_state>
+            <state>WALK_RIGHT</state>
+            <animation_sequence>
+                <pose image_id="24" duration="3"/>
+                <pose image_id="25" duration="3"/>
+                <pose image_id="26" duration="3"/>
+                <pose image_id="25" duration="3"/>
+            </animation_sequence>
+        </animation_state>
+
+        <animation_state>
+            <state>SHOOT_BACK</state>
+            <animation_sequence>
+               
+                
+                <pose image_id="32" duration="2"/>
+                <pose image_id="32" duration="2"/>
+		<pose image_id="32" duration="2"/>
+                
+		
+            </animation_sequence>
+        </animation_state>
+
+		<animation_state>
+            <state>SHOOT_FRONT</state>
+            <animation_sequence>
+ 
+		
+                <pose image_id="38" duration="2"/>
+                <pose image_id="38" duration="2"/>
+		<pose image_id="38" duration="2"/>
+                
+
+            </animation_sequence>
+        </animation_state>
+
+		<animation_state>
+            <state>SHOOT_LEFT</state>
+            <animation_sequence>
+		
+                <pose image_id="42" duration="2"/>
+                <pose image_id="42" duration="2"/>
+		<pose image_id="42" duration="2"/>
+                
+		
+ 
+            </animation_sequence>
+		</animation_state>
+
+		<animation_state>
+            <state>SHOOT_RIGHT</state>
+            <animation_sequence>
+		
+		
+		
+                <pose image_id="46" duration="2"/>
+		<pose image_id="46" duration="2"/>
+		<pose image_id="46" duration="2"/>
+
+            </animation_sequence>
+		</animation_state>
+
+		<animation_state>
+            <state>STRAFE_BACK</state>
+            <animation_sequence>
+                <pose image_id="47" duration="3"/>
+                <pose image_id="48" duration="3"/>
+                <pose image_id="49" duration="3"/>
+                <pose image_id="48" duration="3"/>
+            </animation_sequence>
+		</animation_state>
+
+		<animation_state>
+            <state>STRAFE_FRONT</state>
+            <animation_sequence>
+                <pose image_id="50" duration="3"/>
+                <pose image_id="51" duration="3"/>
+                <pose image_id="52" duration="3"/>
+                <pose image_id="51" duration="3"/>
+            </animation_sequence>
+		</animation_state>
+
+		<animation_state>
+            <state>STRAFE_LEFT</state>
+            <animation_sequence>
+                <pose image_id="53" duration="3"/>
+                <pose image_id="54" duration="3"/>
+                <pose image_id="55" duration="3"/>
+                <pose image_id="54" duration="3"/>
+            </animation_sequence>
+		</animation_state>
+
+		<animation_state>
+            <state>STRAFE_RIGHT</state>
+            <animation_sequence>
+                <pose image_id="56" duration="3"/>
+                <pose image_id="57" duration="3"/>
+                <pose image_id="58" duration="3"/>
+                <pose image_id="57" duration="3"/>
+            </animation_sequence>
+		</animation_state>
+
+		<animation_state>
+            <state>DAMAGE_FRONT</state>
+            <animation_sequence>
+                <pose image_id="59" duration="3"/>
+                <pose image_id="60" duration="13"/>
+
+            </animation_sequence>
+		</animation_state>
+
+		<animation_state>
+            <state>DAMAGE_LEFT</state>
+            <animation_sequence>
+                <pose image_id="62" duration="3"/>
+                <pose image_id="63" duration="15"/>
+            </animation_sequence>
+		</animation_state>	
+
+		<animation_state>
+            <state>DAMAGE_RIGHT</state>
+            <animation_sequence>
+                <pose image_id="64" duration="3"/>
+                <pose image_id="65" duration="15"/>
+            </animation_sequence>
+		</animation_state>
+    </animations_list>  
+</sprite_type>

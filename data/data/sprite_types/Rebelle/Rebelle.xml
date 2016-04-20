@@ -112,9 +112,28 @@
         <image_file id="81" file_name="Rebelle_RIGHT_PUNCH_2.png"/>
         <image_file id="82" file_name="Rebelle_RIGHT_PUNCH_3.png"/>
         <image_file id="83" file_name="Rebelle_RIGHT_PUNCH_4.png"/>
+
+	<image_file id="84" file_name="Rebelle_DYING_1.png"/>
+        <image_file id="85" file_name="Rebelle_DYING_2.png"/>
+        <image_file id="86" file_name="Rebelle_DYING_3.png"/>
+        <image_file id="87" file_name="Rebelle_DYING_4.png"/>
+        <image_file id="88" file_name="Rebelle_DYING_5.png"/>
         
     </images_list>
     <animations_list>
+
+	<animation_state>
+            <state>DYING</state>
+            <animation_sequence>
+                <pose image_id="84" duration="7"/>
+                <pose image_id="85" duration="5"/>
+                <pose image_id="86" duration="4"/>
+                <pose image_id="87" duration="4"/>
+                <pose image_id="88" duration="20"/>
+
+            </animation_sequence>
+        </animation_state>
+
         <animation_state>
             <state>WALK_BACK</state>
             <animation_sequence>
@@ -279,52 +298,52 @@
         <animation_state>
             <state>SHOOT_BACK</state>
             <animation_sequence>
-                <pose image_id="29" duration="1"/>
-                <pose image_id="30" duration="2"/>
-                <pose image_id="31" duration="2"/>
+               
+                
                 <pose image_id="32" duration="2"/>
-                <pose image_id="33" duration="9"/>
-				<pose image_id="32" duration="2"/>
-                <pose image_id="31" duration="2"/>
-                <pose image_id="30" duration="2"/>
+                <pose image_id="32" duration="2"/>
+		<pose image_id="32" duration="2"/>
+                
+		
             </animation_sequence>
         </animation_state>
 
 		<animation_state>
             <state>SHOOT_FRONT</state>
             <animation_sequence>
-                <pose image_id="34" duration="1"/>
-                <pose image_id="35" duration="2"/>
-                <pose image_id="36" duration="2"/>
-                <pose image_id="37" duration="2"/>
-                <pose image_id="38" duration="9"/>
-				<pose image_id="37" duration="2"/>
-                <pose image_id="36" duration="2"/>
-                <pose image_id="35" duration="2"/>
+ 
+		
+                <pose image_id="38" duration="2"/>
+                <pose image_id="38" duration="2"/>
+		<pose image_id="38" duration="2"/>
+                
+
             </animation_sequence>
         </animation_state>
 
 		<animation_state>
             <state>SHOOT_LEFT</state>
             <animation_sequence>
-                <pose image_id="39" duration="1"/>
-                <pose image_id="40" duration="2"/>
-                <pose image_id="41" duration="2"/>
-                <pose image_id="42" duration="9"/>
-                <pose image_id="41" duration="2"/>
-                <pose image_id="40" duration="2"/>
+		
+                <pose image_id="42" duration="2"/>
+                <pose image_id="42" duration="2"/>
+		<pose image_id="42" duration="2"/>
+                
+		
+ 
             </animation_sequence>
 		</animation_state>
 
 		<animation_state>
             <state>SHOOT_RIGHT</state>
             <animation_sequence>
-                <pose image_id="43" duration="1"/>
-                <pose image_id="44" duration="2"/>
-                <pose image_id="45" duration="2"/>
-                <pose image_id="46" duration="9"/>
-                <pose image_id="45" duration="2"/>
-                <pose image_id="44" duration="2"/>
+		
+		
+		
+                <pose image_id="46" duration="2"/>
+		<pose image_id="46" duration="2"/>
+		<pose image_id="46" duration="2"/>
+
             </animation_sequence>
 		</animation_state>
 
