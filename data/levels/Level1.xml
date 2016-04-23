@@ -5,7 +5,7 @@
 <level level_name="Library Level">
   
   <!-- MAP TO BE USED FOR THIS LEVEL -->
-  <level_map map_dir="data/maps/LibraryLevel/" map_file="Library.tmx" />
+  <level_map map_dir="data/maps/LibraryLevel/" map_file="Library.tmx" levelendx="2816" levelendy="2944" levelendxwidth="384" levelendywidth="256"/>
   
   <!-- COMPLETE LIST OF SPRITE TYPES USED FOR THIS LEVEL TO BE LOADED AT LEVEL LOAD TIME -->
   <level_sprite_types sprite_types_dir="data/sprite_types/" sprite_types_file="RebelleSpriteTypes.xml" />
