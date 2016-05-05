@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<!-- THIS FILE LISTS ALL THE DATA ASSOCIATED WITH Level 1 FOR THE BUGS GAME -->
+
+<level level_name="Second Level">
+  
+  <!-- MAP TO BE USED FOR THIS LEVEL -->
+  <level_map map_dir="data/maps/LevelTwoMap/" map_file="Level2map.tmx" levelendx="4608" levelendy="3008" levelendxwidth="4800" levelendywidth="3200"/>
+  
+  <!-- COMPLETE LIST OF SPRITE TYPES USED FOR THIS LEVEL TO BE LOADED AT LEVEL LOAD TIME -->
+  <level_sprite_types sprite_types_dir="data/sprite_types/" sprite_types_file="RebelleSpriteTypes.xml" />
+  
+  <!-- THESE ARE THE BOT TYPES THE LEVEL WILL BE SPAWNING -->
+  <level_bot_types>
+  <bot type="Enemy"  sprite_type="Enemy" MOVING="deterministic"  DYING="recycle" SPAWNING="random" max_velocity="5"/>
+  <bot type="Enemy" sprite_type="Enemy" MOVING="deterministic" DYING="recycle" SPAWNING="random" max_velocity="5"/>
+
+  </level_bot_types>
+  
+  <!-- INITIAL BOTS WHEN THE LEVEL STARTS -->
+  <bots_list>
+	
+	
+  </bots_list>
+  
+  <!-- WE CAN EVEN SPECIFY BOT SPAWN LOCATIONS -->
+  <spawning_pools>
+
+  </spawning_pools>
+  
+  <!-- PLAYER -->
+  <players>
+	  <player sprite_type="Rebelle" init_x="50"  init_y="150" init_v="6" attack="3" defense="0" health="15" init_player_state="PLAYER_IDLE" init_sprite_state="IDLE_BACK"/>
+  </players>
+  
+  <level_objects>
+	  <level_object object_type="money"	sprite_type="money"	object_id="0"	init_x="2000"	init_y="500"	/>
+	  <level_object object_type="money"	sprite_type="money"	object_id="1"	init_x="2500"	init_y="1000"	/>
+	  <level_object object_type="money"	sprite_type="money"	object_id="2"	init_x="3000"	init_y="1500"	/>
+  </level_objects>
+
+  <bullets>
+    <bullet object_type="bullet" sprite_type="bullet" object_id="5" init_x="50" init_y="130" />
+  </bullets>
+  
+</level>
+
