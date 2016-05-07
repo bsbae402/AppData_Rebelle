@@ -24,9 +24,9 @@
 	<bot type="Enemy"   init_x="1664"  init_y="0" final_x="2048" final_y="896" injured ="false" init_v="6" attack="3" defense="0" health="9" init_bot_state="MOVING" init_sprite_state="IDLE_BACK" />
 
 	<bot type="Enemy"   init_x="1664"  init_y="1280" final_x="1664" final_y="3072" injured ="false" init_v="6" attack="3" defense="0" health="9" init_bot_state="MOVING" init_sprite_state="IDLE_BACK" />
-	<bot type="Enemy"   init_x="2368"  init_y="1408" final_x="2304" final_y="2752" injured ="false" init_v="6" attack="3" defense="0" health="9" init_bot_state="MOVING" init_sprite_state="IDLE_BACK" />
+	<bot type="Enemy"   init_x="2368"  init_y="1920" final_x="2304" final_y="2752" injured ="false" init_v="6" attack="3" defense="0" health="9" init_bot_state="MOVING" init_sprite_state="IDLE_BACK" />
 	<bot type="Enemy"   init_x="2752"  init_y="1216" final_x="2816" final_y="192" injured ="false" init_v="6" attack="3" defense="0" health="9" init_bot_state="MOVING" init_sprite_state="IDLE_BACK" />
-	<bot type="Enemy"   init_x="2624"  init_y="1536" final_x="3008" final_y="2880" injured ="false" init_v="6" attack="3" defense="0" health="9" init_bot_state="MOVING" init_sprite_state="IDLE_BACK" />
+	<bot type="Enemy"   init_x="3008"  init_y="1920" final_x="3008" final_y="2880" injured ="false" init_v="6" attack="3" defense="0" health="9" init_bot_state="MOVING" init_sprite_state="IDLE_BACK" />
 	<bot type="Enemy"   init_x="1216"  init_y="2944" final_x="1216" final_y="2304" injured ="false" init_v="6" attack="3" defense="0" health="9" init_bot_state="MOVING" init_sprite_state="IDLE_BACK" />
 	<bot type="Enemy"   init_x="1024"  init_y="512" final_x="832" final_y="1664" injured ="false" init_v="6" attack="3" defense="0" health="9" init_bot_state="MOVING" init_sprite_state="IDLE_BACK" />
   </bots_list>
