@@ -5,7 +5,7 @@
 <level level_name="Second Level">
   
   <!-- MAP TO BE USED FOR THIS LEVEL -->
-  <level_map map_dir="data/maps/LevelTwoMap/" map_file="Level2map.tmx" levelendx="4608" levelendy="3008" levelendxwidth="4800" levelendywidth="3200"/>
+  <level_map map_dir="data/maps/LevelTwoMap/" map_file="Level2map.tmx" levelendx="4544" levelendy="2880" levelendxwidth="4800" levelendywidth="3200"/>
   
   <!-- COMPLETE LIST OF SPRITE TYPES USED FOR THIS LEVEL TO BE LOADED AT LEVEL LOAD TIME -->
   <level_sprite_types sprite_types_dir="data/sprite_types/" sprite_types_file="RebelleSpriteTypes.xml" />
@@ -19,8 +19,25 @@
   
   <!-- INITIAL BOTS WHEN THE LEVEL STARTS -->
   <bots_list>
-	
-	
+	<bot type="Enemy"   init_x="448"  init_y="1152" final_x="1216" final_y="1152" injured ="false" init_v="6" attack="3" defense="0" health="9" init_bot_state="MOVING" init_sprite_state="IDLE_BACK" />
+	<bot type="Enemy"   init_x="1408"  init_y="704" final_x="2469" final_y="704" injured ="false" init_v="6" attack="3" defense="0" health="9" init_bot_state="MOVING" init_sprite_state="IDLE_BACK" />
+	<bot type="Enemy"   init_x="832"  init_y="1792" final_x="1344" final_y="1792" injured ="false" init_v="6" attack="3" defense="0" health="9" init_bot_state="MOVING" init_sprite_state="IDLE_BACK" />
+
+	<bot type="Enemy"   init_x="64"  init_y="2688" final_x="64" final_y="2944" injured ="false" init_v="6" attack="3" defense="0" health="9" init_bot_state="MOVING" init_sprite_state="IDLE_BACK" />
+	<bot type="Enemy"   init_x="1408"  init_y="2624" final_x="2496" final_y="2624" injured ="false" init_v="6" attack="3" defense="0" health="9" init_bot_state="MOVING" init_sprite_state="IDLE_BACK" />
+	<bot type="Enemy"   init_x="1984"  init_y="1088" final_x="1984" final_y="1920" injured ="false" init_v="6" attack="3" defense="0" health="9" init_bot_state="MOVING" init_sprite_state="IDLE_BACK" />
+	<bot type="Enemy"   init_x="2304"  init_y="1536" final_x="2624" final_y="1536" injured ="false" init_v="6" attack="3" defense="0" health="9" init_bot_state="MOVING" init_sprite_state="IDLE_BACK" />
+	<bot type="Enemy"   init_x="3008"  init_y="1088" final_x="3584" final_y="1088" injured ="false" init_v="6" attack="3" defense="0" health="9" init_bot_state="MOVING" init_sprite_state="IDLE_BACK" />
+	<bot type="Enemy"   init_x="3584"  init_y="192" final_x="3584" final_y="896" injured ="false" init_v="6" attack="3" defense="0" health="9" init_bot_state="MOVING" init_sprite_state="IDLE_BACK" />
+	<bot type="Enemy"   init_x="3776"  init_y="576" final_x="4544" final_y="576" injured ="false" init_v="6" attack="3" defense="0" health="9" init_bot_state="MOVING" init_sprite_state="IDLE_BACK" />
+	<bot type="Enemy"   init_x="3904"  init_y="960" final_x="4544" final_y="960" injured ="false" init_v="6" attack="3" defense="0" health="9" init_bot_state="MOVING" init_sprite_state="IDLE_BACK" />
+	<bot type="Enemy"   init_x="2880"  init_y="2240" final_x="2880" final_y="2944" injured ="false" init_v="6" attack="3" defense="0" health="9" init_bot_state="MOVING" init_sprite_state="IDLE_BACK" />
+	<bot type="Enemy"   init_x="3648"  init_y="1536" final_x="3648" final_y="2048" injured ="false" init_v="6" attack="3" defense="0" health="9" init_bot_state="MOVING" init_sprite_state="IDLE_BACK" />
+	<bot type="Enemy"   init_x="4224"  init_y="2368" final_x="4672" final_y="2368" injured ="false" init_v="6" attack="3" defense="0" health="9" init_bot_state="MOVING" init_sprite_state="IDLE_BACK" />
+	<bot type="Enemy"   init_x="3968"  init_y="2624" final_x="3968" final_y="3072" injured ="false" init_v="6" attack="3" defense="0" health="9" init_bot_state="MOVING" init_sprite_state="IDLE_BACK" />
+	<bot type="Enemy"   init_x="4224"  init_y="2752" final_x="4224" final_y="3072" injured ="false" init_v="6" attack="3" defense="0" health="9" init_bot_state="MOVING" init_sprite_state="IDLE_BACK" />
+	<bot type="Enemy"   init_x="4288"  init_y="2624" final_x="4672" final_y="2624" injured ="false" init_v="6" attack="3" defense="0" health="9" init_bot_state="MOVING" init_sprite_state="IDLE_BACK" />
+	<bot type="Enemy"   init_x="2688"  init_y="384" final_x="2688" final_y="1920" injured ="false" init_v="6" attack="3" defense="0" health="9" init_bot_state="MOVING" init_sprite_state="IDLE_BACK" />
   </bots_list>
   
   <!-- WE CAN EVEN SPECIFY BOT SPAWN LOCATIONS -->
