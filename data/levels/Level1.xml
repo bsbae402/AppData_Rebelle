@@ -55,7 +55,7 @@
   </level_objects>
 
   <bullets>
-    <bullet object_type="bullet" sprite_type="bullet" object_id="5" init_x="50" init_y="130" />
+    <bullet object_type="bullet" sprite_type="bullet" object_id="5" init_x="-50" init_y="-130" />
   </bullets>
   
 </level>

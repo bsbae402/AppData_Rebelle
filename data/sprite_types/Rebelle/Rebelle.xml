@@ -123,6 +123,14 @@
     <animations_list>
 
 	<animation_state>
+            <state>DEAD</state>
+            <animation_sequence>
+                <pose image_id="88" duration="20"/>
+
+            </animation_sequence>
+        </animation_state>
+		
+	<animation_state>
             <state>DYING</state>
             <animation_sequence>
                 <pose image_id="84" duration="7"/>
